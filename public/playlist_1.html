@@ -9,11 +9,11 @@
 <body>
 <!--Container-->
  <div class="flex flex-wrap text-white bg-red-600">
-     <div class="left-side bg-black w-242 h-screen p-6 "> <!-- Start of side menu -->
+     <div class="left-side bg-black w-1/5 h-screen p-6 "> <!-- Start of side menu -->
        <div>
-          <div>
-            <i class="fa-thin fa-house"></i>
-            <p>Home</p>
+          <div class="flex flex-wrap">
+              <i class="fa-thin fa-house"></i>
+              <p>Home</p>
           </div>
          <div> Search</div>
          <div> Your library</div>
@@ -30,7 +30,7 @@
         </div>
      </div><!-- End of side menu -->
 
-     <div> <!-- Side container  -->
+     <div class="w-4/5"> <!-- Side container  -->
          <div> <!-- Control 1-->
             <input type="button" value="Emily Adams ">
          </div> <!-- End of Control 1-->
@@ -53,19 +53,21 @@
          <div><!-- Action barre-->
          </div><!--End of action barre-->
 
-         <div class="grid grid-cols-5 w-full "><!-- Music grid list -->
-            <p>#</p>
-            <p>Title</p>
+         <div class="grid grid-cols-5 "><!-- Music grid list -->
+            <p class=" ">#</p>
+            <p class=" bg-black">Title</p>
             <p>Album</p>
             <p>Date added</p>
-             <p> #</p>
+             <p>#</p>
              <!-- song 1-->
              <p>1</p>
-             <div>
-                 <img src="images/runaway.jpg" alt="">
-                 <p>Be Happy</p>
-                 <i class="fas fa-heart"></i>
-                 <p>Gene Evaro Jr</p>
+             <div class="flex flex-wrap">
+                  <div><img src="images/runaway.jpg" alt=""></div>
+                  <div><p>Be Happy</p>
+                       <div class="flex flex-wrap">
+                           <i class="fas fa-heart"></i>
+                           <p>Gene Evaro Jr</p> </div>
+                  </div>
             </div>
 
              <p>Be Happy</p>
@@ -74,10 +76,12 @@
 
             <!-- song 2 -->
              <p>2</p>
-            <div>
-                <img src="images/behappy.jpg" alt="">
-                <p>Runaway</p>
-                <p>Beast Coasst</p>
+            <div class="flex flex-wrap">
+                <div><img src="images/behappy.jpg" alt=""></div>
+                <div>
+                    <p>Runaway</p>
+                    <p>Beast Coasst</p>
+                </div>
             </div>
              <p>Runaway</p>
              <p>Oct 14, 2020</p>
@@ -85,10 +89,12 @@
 
               <!-- song 3 -->
                  <p>3</p>
-             <div>
-                   <img src="images/domesticsweater.jpg" alt="">
+             <div class="flex flex-wrap">
+                 <div><img src="images/domesticsweater.jpg" alt=""></div>
+                 <div>
                    <p>Domestic Sweater</p>
                    <p> Wardell</p>
+                 </div>
              </div>
              <p>Domestic Sweater</p>
              <p>Oct 14, 2020</p>
