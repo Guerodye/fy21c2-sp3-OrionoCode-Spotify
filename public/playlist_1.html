@@ -10,7 +10,7 @@
 <body>
 <!--Container-->
  <div class="flex flex-wrap text-white bg-red-600">
-     <div class="left-side bg-black w-1/5 h-screen p-6 "> <!-- Start of side menu -->
+     <div class=" bg-black w-1/5 h-screen p-6 "> <!-- Start of side menu -->
        <div>
           <div class="flex flex-wrap">
               <i class="fas fa-home"></i>
@@ -43,16 +43,16 @@
         </div>
      </div><!-- End of side menu -->
 
-     <div class="w-4/5"> <!-- Side container  -->
+     <div class=""> <!-- Side container  -->
          <div class="flex flex-wrap justify-between"> <!-- Control 1-->
              <div class="flex flex-wrap">
                  <div><span><</span></div>
                  <div><span>></span></div>
              </div>
              <form>
-                 <select class="bg-spotify-black text-white text-xs rounded-xl h-8 w-36" name="#">
+                 <select class="bg-spotify-black" name="#">
                  <option value="Emily Adams">
-                     Emily Adams
+                         <p>Emily Adams</p>
                  </option>
                  </select>
              </form>
@@ -60,34 +60,34 @@
          </div> <!-- End of Control 1-->
 
 
-        <div class="flex flex-wrap"> <!-- Description area-->
+        <div class="flex flex-wrap relative"> <!-- Description area-->
             <div> <!--main image-->
               <img src="images/mainimage.jpg" alt="">
             </div> <!-- End main image-->
-            <div> <!--main texts-->
-              <p>Playlist</p>
-              <h1>My playlist #2</h1>
-              <div class="flex flex-wrap">
+            <div class="ml-2"> <!--main texts-->
+              <p class="font-bold absolute bottom-3/4">Playlist</p>
+              <p class="font-bold text-8xl absolute bottom-1/4">My playlist #2</p>
+              <div class="flex flex-wrap  absolute bottom-0">
                  <img src="" alt="">
-                 <p> Emily adams.<span>5 likes.9 songs.27 min</span></p>
+                 <p class="font-bold"> Emily adams.<span>5 likes.9 songs.27 min</span></p>
               </div>
            </div> <!-- End main texts-->
         </div> <!-- End Description area-->
-
+             <br>
          <div><!-- Action barre-->
          </div><!--End of action barre-->
 
-         <div class="grid grid-cols-5 "><!-- Music grid list -->
+         <div class="grid grid-cols-5 gap-y-2 gap-x-7 justify-between "><!-- Music grid list -->
             <p class=" ">#</p>
             <p class=" bg-black">Title</p>
             <p>Album</p>
             <p>Date added</p>
-             <p>#</p>
+             <p class="text-center">#</p>
              <!-- song 1-->
              <p>1</p>
              <div class="flex flex-wrap">
                   <div><img src="images/runaway.jpg" alt=""></div>
-                  <div><p>Be Happy</p>
+                  <div><p class="font-bold">Be Happy</p>
                        <div class="flex flex-wrap">
                            <i class="fas fa-heart"></i>
                            <p>Gene Evaro Jr</p> </div>
@@ -96,33 +96,33 @@
 
              <p>Be Happy</p>
              <p>Oct 14, 2020</p>
-             <p>3:03</p>
+             <p class="text-center">3:03</p>
 
             <!-- song 2 -->
-             <p>2</p>
+             <p class="">2</p>
             <div class="flex flex-wrap">
                 <div><img src="images/behappy.jpg" alt=""></div>
                 <div>
-                    <p>Runaway</p>
+                    <p class="font-bold">Runaway</p>
                     <p>Beast Coasst</p>
                 </div>
             </div>
              <p>Runaway</p>
              <p>Oct 14, 2020</p>
-             <p>3:23</p>
+             <p class="text-center">3:23</p>
 
               <!-- song 3 -->
                  <p>3</p>
              <div class="flex flex-wrap">
                  <div><img src="images/domesticsweater.jpg" alt=""></div>
                  <div>
-                   <p>Domestic Sweater</p>
+                   <p class="font-bold">Domestic Sweater</p>
                    <p> Wardell</p>
                  </div>
              </div>
-             <p>Domestic Sweater</p>
+             <p class="">Domestic Sweater</p>
              <p>Oct 14, 2020</p>
-             <p>3:19</p>
+             <p class="text-center">3:19</p>
          </div> <!-- End Music grid list -->
    </div><!--End of side container-->
  </div> <!--End cintainer-->
