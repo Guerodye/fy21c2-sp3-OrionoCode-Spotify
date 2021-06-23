@@ -8,50 +8,92 @@
 </head>
 <body>
 <div
-        class="bg-blue-400 flex justify-center h-screen w-screen">
+        class="flex text-white justify-center border-white content-center box-border">
 
-    <div class="grid grid-cols-12 gap-2 w-full h-36 ">
+    <div class="z-1 bg-black w-1/3 h-screen p-6 ">
+        <div>
+            <div>Home</div>
+            <div> Search</div>
+            <div> Your library</div>
+            <p>Playlist</p>
+            <div> Create playlist</div>
+            <div> Liked Songs</div>
+        </div>
+        <div>
+            <p>RapCaviar</p>
+            <p>Music mix #1</p>
+            <p>Music mix #2</p>
+        </div>
+    </div>
+    <div
+            class="bg-gradient-to-b from-light-blue via-spotify-black to-gray-900 z-1 w-full mx-auto box-border justify-evenly content-center border-t-2  text-black border-b-2 text-sm p-8">
 
-        <div class="bg-white p-3 rounded col-span-2">1</div>
-        <div class="bg-white p-3 rounded col-span-10">2</div>
-        <div class="bg-white p-3 rounded col-span-2">3</div>
-        <div class="bg-white p-3 rounded col-span-2">4</div>
-        <div class="bg-white p-3 rounded col-span-8">5</div>
-        <div class="bg-white p-3 rounded col-span-2">6</div>
-        <div class="bg-white p-3 rounded col-span-2">7</div>
-        <div class="bg-white p-3 rounded col-span-8">8</div>
-        <div class="bg-white p-3 rounded col-span-2">9</div>
-        <div class="bg-white p-3 rounded col-span-2">10</div>
-        <div class="bg-white p-3 rounded col-span-8">11</div>
-        <div class="bg-white p-3 rounded col-span-2">12</div>
-        <div class="bg-white p-3 rounded col-span-10">13</div>
-        <div class="bg-white p-3 rounded col-span-2">14</div>
-        <div class="bg-white p-3 rounded col-span-2">15</div>
-        <div class="bg-white p-3 rounded col-span-2">16</div>
-        <div class="bg-white p-3 rounded col-span-2">17</div>
-        <div class="bg-white p-3 rounded col-span-2">18</div>
-        <br><br>
-        <div class="bg-white p-3 rounded col-span-2">19</div>
-        <div class="bg-white p-3 rounded col-span-2">20</div>
-        <div class="bg-white p-3 rounded col-span-2">21</div>
-        <div class="bg-white p-3 rounded col-span-2">22</div>
-        <div class="bg-white p-3 rounded col-span-2">23</div>
-        <br><br>
-        <div class="bg-white p-3 rounded col-span-2">24</div>
-        <div class="bg-white p-3 rounded col-span-2">25</div>
-        <div class="bg-white p-3 rounded col-span-2">26</div>
-        <div class="bg-white p-3 rounded col-span-2">27</div>
-        <div class="bg-white p-3 rounded col-span-2">28</div>
-        <br><br>
-        <div class="bg-white p-3 rounded col-span-2">29</div>
-        <div class="bg-white p-3 rounded col-span-2">30</div>
-        <div class="bg-white p-3 rounded col-span-2">31</div>
-        <div class="bg-white p-3 rounded col-span-2">32</div>
-        <div class="bg-white p-3 rounded col-span-2">33</div>
-        <br><br>
-        <div class="bg-white p-3 rounded col-span-12">34</div>
+        <div class="grid grid-cols-12 gap-2 w-full h-36">
+
+            <div
+                    class=" bg-transparent p-3 rounded outline:none col-span-12 w-full flex justify-between">
+                <div
+                        class="flex text-gray-500 font-extrabold text-2xl">
+                    <div
+                            class=" relative rounded-full h-8 w-8 bg-spotify-black">
+                        <span class="absolute right-2 -top-1"><</span>
+                    </div>
+                    <div
+                            class="relative rounded-full h-8 w-8 bg-gray-700"><span class="absolute right-2 -top-1">></span>
+                    </div>
+                </div>
+                <div class="relative pl-8">
+                    <select
+                            class="bg-spotify-black text-white text-xs rounded-xl h-8 w-36"
+                            name="name"
+                            id="fname">
+                        <option value="Emily Adams" >Emily
+                            Adams</option>
+
+                    </select>
+                    <img src="images/download.jpg" alt="#"
+                         class="absolute top-2 left-32 h-4 w-4" >
+                </div>
+            </div>
+            <div
+                    class="bg-transparent p-3 rounded col-span-12 text-lg text-white font-bold">Lets find something
+                  in your playlist
+            </div>
+
+            <div
+                    class="flex relative bg-gray-500 p-3 rounded col-span-4">
+                <img src="images/victory.jpg.jpg" alt="" class="h-14 w-14">
+                <p
+                        class="absolute top-8 left-24 text-white font-bold">Victory -
+                    Steven Cooper
+                    </p>
+            </div>
+
+
+        </div>
+</div>
+
+</div>
+<footer class="relative z-50">
+    <div
+            class="flex absolute bottom-1 left-1 flex bg-gray-600 p-3 rounded w-full h-32">
+        <img src="images/domesticsweater.jpg" alt="" class="w-16 h-16">
+        <div>
+            <p class="text-sm">Domestic Sweater</p>
+            <p class="text-sm">Wardell</p>
+            <i class="far fa-heart"></i>
+            <i
+                    class="fas fa-step-backward"></i>
+            <i class="far fa-play-circle"></i>
+            <i class=" absolute fas fa-step-forward left-3/4"></i>
+        </div>
+
+
 
     </div>
-</div>
+</footer>
+
+
+
 </body>
 </html>
