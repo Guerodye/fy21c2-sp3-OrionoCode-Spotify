@@ -5,111 +5,132 @@
     <title>Playlist One</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="/css/all.css">
 </head>
 <body>
 <!--Container-->
  <div class="flex flex-wrap text-white bg-red-600">
-<!-- Start of side menu -->
-    <div class="left-side bg-black w-242 h-screen p-6 ">
-      <div>
-        <div>Home</div>
-        <div> Search</div>
-        <div> Your library</div>
-        <p>Playlist</p>
-        <div> Create playlist</div>
-        <div> Liked Songs</div>
-      </div>
-        <div>
-         <p>2021 Greatest Songs</p>
-         <p>At Work</p>
-         <p>Playlist #2</p>
-         <p>Playlist #4</p>
+     <div class=" bg-black w-1/5 h-screen p-6 "> <!-- Start of side menu -->
+       <div>
+          <div class="flex flex-wrap">
+              <i class="fas fa-home"></i>
+              <p class="mb-4 ml-2 ">Home</p>
+          </div>
+         <div class="flex flex-wrap">
+             <i class="fas fa-search"></i>
+             <p class="mb-4 ml-2">Search</p>
+         </div>
+         <div class="flex flex-wrap">
+             <img src="" alt="">
+             <p class="mb-4 ml-2">Your library<p></p>
+         </div>
+         <p class="mb-2">Playlist</p>
+         <div class="flex flex-wrap mb-2">
+             <img src="images/plussign.png" alt="">
+             <p class="ml-2">Create playlist</p>
+         </div>
+         <div class="flex flex-wrap mb-2">
+             <img src="images/liked-songs-300.png" alt="">
+             <p class="ml-2">Liked Songs</p>
+         </div>
+       </div>
+        <div class="">
+         <p class="mb-2">2021 Greatest Songs</p>
+         <p class="mb-2">At Work</p>
+         <p class="mb-2">Playlist #2</p>
+         <p class="mb-2">Playlist #4</p>
          <p> RapCaviar</p>
         </div>
-    </div>
-     <!-- End of side menu -->
-     <!-- Side container -->
-     <div>
-<!-- Control barre-->
-    <div>
-    <input type="button" value="Emily Adams ">
-    </div>
-<!-- End of control barre-->
+     </div><!-- End of side menu -->
 
-<!-- Description area-->
-     <div class="flex flex-wrap">
-         <div>
-             <img src="images/mainimage.jpg" alt="">
-         </div>
-         <div>
-           <p>Playlist</p>
-           <h1>My playlist #2</h1>
-           <div>
-               <img src="" alt="">
-               <p> Emily adams.<span>5 likes.9 songs.27 min</span></p>
-           </div>
-         </div>
-     </div>
-<!-- End of Description area-->
+     <div class=""> <!-- Side container  -->
+         <div class="flex flex-wrap justify-between"> <!-- Control 1-->
+             <div class="flex flex-wrap">
+                 <div><span><</span></div>
+                 <div><span>></span></div>
+             </div>
+             <form>
+                 <select class="bg-spotify-black" name="#">
+                 <option value="Emily Adams">
+                         <p>Emily Adams</p>
+                 </option>
+                 </select>
+             </form>
 
-<!-- Action barre-->
+         </div> <!-- End of Control 1-->
 
-<!--End of action barre-->
 
-<!-- Description barre -->
-         <div class="flex flex-wrap">
-     <p>#</p>
-     <p>Title</p>
-     <p>Album</p>
-     <p>Date added</p>
-         </div>
+        <div class="flex flex-wrap relative"> <!-- Description area-->
+            <div> <!--main image-->
+              <img src="images/mainimage.jpg" alt="">
+            </div> <!-- End main image-->
+            <div class="ml-2"> <!--main texts-->
+              <p class="font-bold absolute bottom-3/4">Playlist</p>
+              <p class="font-bold text-8xl absolute bottom-1/4">My playlist #2</p>
+              <div class="flex flex-wrap  absolute bottom-0">
+                 <img src="" alt="">
+                 <p class="font-bold"> Emily adams.<span>5 likes.9 songs.27 min</span></p>
+              </div>
+           </div> <!-- End main texts-->
+        </div> <!-- End Description area-->
+             <br>
+         <div><!-- Action barre-->
+         </div><!--End of action barre-->
 
-<!-- End Description barre -->
+         <div class="grid grid-cols-5 gap-y-2 gap-x-7 justify-between "><!-- Music grid list -->
+            <p class=" ">#</p>
+            <p class=" bg-black">Title</p>
+            <p>Album</p>
+            <p>Date added</p>
+             <p class="text-center">#</p>
+             <!-- song 1-->
+             <p>1</p>
+             <div class="flex flex-wrap">
+                  <div><img src="images/runaway.jpg" alt=""></div>
+                  <div><p class="font-bold">Be Happy</p>
+                       <div class="flex flex-wrap">
+                           <i class="fas fa-heart"></i>
+                           <p>Gene Evaro Jr</p> </div>
+                  </div>
+            </div>
 
-<!-- song 1-->
-    <div class="flex flex-wrap">
-      <p>1</p>
-     <img src="images/runaway.jpg" alt="">
-        <div>
-            <i class="fas fa-heart"></i>
-            <i class="fa-solid fa-comment"></i>
-            <i class="fa-solid fa-house"></i>
-            <i class="fa-solid fa-heart"></i>
-            <i class="fab fa-angellist"></i>
-            <p>Be Happy</p>
-            <p>Gene Evaro Jr</p>
-        </div>
-        <p>Be Happy</p>
-        <p>Oct 14, 2020</p>
-        <p>3:03</p>
-    </div>
-         <br>
-<!-- song 2 -->
-    <div class="flex flex-wrap">
-    <img src="images/behappy.jpg" alt="">
-        <div>
-            <p>Runaway</p>
-            <p>Beast Coasst</p>
-        </div>
-        <p>Runaway</p>
-        <p>Oct 14, 2020</p>
-        <p>3:23</p>
-    </div>
-         <br>
-<!-- song 3 -->
-    <div class="flex flex-wrap">
-    <img src="images/domesticsweater.jpg" alt="">
-        <div>
-            <p>Domestic Sweater</p>
-            <p> Wardell</p>
-        </div>
-         <p>Domestic Sweater</p>
-         <p>Oct 14, 2020</p>
-         <p>3:19</p>
-   </div>
-<!-- play barre-->
-         <!--End of side container-->
-     </div>
- </div>
+             <p>Be Happy</p>
+             <p>Oct 14, 2020</p>
+             <p class="text-center">3:03</p>
+
+            <!-- song 2 -->
+             <p class="">2</p>
+            <div class="flex flex-wrap">
+                <div><img src="images/behappy.jpg" alt=""></div>
+                <div>
+                    <p class="font-bold">Runaway</p>
+                    <p>Beast Coasst</p>
+                </div>
+            </div>
+             <p>Runaway</p>
+             <p>Oct 14, 2020</p>
+             <p class="text-center">3:23</p>
+
+              <!-- song 3 -->
+                 <p>3</p>
+             <div class="flex flex-wrap">
+                 <div><img src="images/domesticsweater.jpg" alt=""></div>
+                 <div>
+                   <p class="font-bold">Domestic Sweater</p>
+                   <p> Wardell</p>
+                 </div>
+             </div>
+             <p class="">Domestic Sweater</p>
+             <p>Oct 14, 2020</p>
+             <p class="text-center">3:19</p>
+         </div> <!-- End Music grid list -->
+   </div><!--End of side container-->
+ </div> <!--End cintainer-->
 </body>
 </html>
+
+<i class="fas fa-heart"></i>
+<i class="fa-solid fa-comment"></i>
+<i class="fa-solid fa-house"></i>
+<i class="fa-solid fa-heart"></i>
+<i class="fab fa-angellist"></i>
