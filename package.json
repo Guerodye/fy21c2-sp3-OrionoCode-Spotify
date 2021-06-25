@@ -1,3 +1,4 @@
+
 {
   "name": "spotifyuix",
   "version": "1.0.0",
@@ -14,5 +15,14 @@
     "autoprefixer": "^10.2.6",
     "postcss-cli": "^8.3.1",
     "tailwindcss": "^2.2.2"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Guerodye/spotifyuix.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Guerodye/spotifyuix/issues"
+  },
+  "homepage": "https://github.com/Guerodye/spotifyuix#readme"
 }
