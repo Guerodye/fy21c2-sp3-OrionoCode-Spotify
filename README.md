@@ -1,8 +1,10 @@
 #To run this file
 
-#install npm
+#install npm in this project.  Type this: npm install
 
-#Type this:  npm run build-css
+#Type this to build your project:  npm run build-css
+
+#Type this to build for production: npm run prod
 
 The Problem:
 A new client heard about the work we did on ULEMHub and recommended us to this music company, Spotify — they want us to implement their new UI design in TailwindCSS.
