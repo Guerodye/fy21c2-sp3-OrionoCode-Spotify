@@ -8,14 +8,13 @@
 </head>
 
 <body>
-<div class="flex justify-between text-white">
+<div
+        class="flex justify-between text-white overflow-x-hidden border-t-2 border-white">
 
-    <!--<div class="w-1/5 h-screen bg-green-500">
-        <h1>Left Side</h1>
-    </div>-->
-    <div class="left-side bg-black w-1/5 pl-12 h-screen p-6"> <!--
-     Start of
-    side menu -->
+
+    <!--Left Side-->
+    <div class="left-side bg-black w-1/5 pl-12 h-screen p-6">
+        <!--Start of side menu -->
         <div class="space-y-3 text-xs">
             <div class="bg-gray-500 h-10 rounded-sm">
                 <div class="flex h-8 w-8 relative">
@@ -32,15 +31,15 @@
                 <img src="images/librarybooks.png" alt=""
                      class="absolute top-2 h-4 w-4">
                 <p class="mb-4 ml-2 absolute left-10 top-2">Your
-                    library<p></p>
+                    library
+                <p></p>
             </div>
             <div class="pt-24 relative">
-                <p
-                        class=" uppercase absolute top-12 tracking-widest">Playlist
+                <p class=" uppercase absolute top-12 tracking-widest">Playlist
                 </p>
 
                 <div class="flex relative">
-                    <img src="images/plussign.png" alt="" >
+                    <img src="images/plussign.png" alt="">
                     <p class="ml-6 font-bold">Create playlist</p>
                 </div>
                 <div class="flex mb-2 mt-2">
@@ -49,21 +48,21 @@
                 </div>
             </div>
             <div>
-                <hr
-                        class="border-0 bg-gray-900 text-gray-900 h-px mt-4 mb-4">
+                <hr class="border-0 bg-gray-900 text-gray-900 h-px mt-4 mb-4">
             </div>
         </div>
         <div class="text-xs">
             <p class="mb-2 tracking-widest">2021 Greatest Songs</p>
             <p class="mb-2">At Work</p>
+            <p class="mb-2">Playlist #1</p>
             <p class="mb-2">Playlist #2</p>
-            <p class="mb-2">Playlist #4</p>
             <p> RapCaviar</p>
         </div>
     </div><!-- End of side menu -->
     <!--Right Side-->
-    <div class=" bg-gradient-to-b from-spotify-red via-spotify-black to-black w-4/5 h-screen space-y-4 pl-6 pr-6 pt-3">
-        <div class=" bg-transparent rounded outline:none col-span-12 w-full flex justify-between">
+    <div
+            class=" bg-gradient-to-b from-spotify-red via-spotify-black to-black w-4/5 h-screen pl-6 pr-6 pt-3 text-xs">
+        <div class=" bg-transparent rounded outline:none col-span-12 w-full flex justify-between mb-8">
             <div class="flex text-gray-500 font-extrabold text-2xl">
                 <div class=" relative rounded-full h-8 w-8 p-1 m-1 bg-spotify-black">
                     <span class="absolute right-2 -top-1"><</span>
@@ -77,95 +76,81 @@
                         class="bg-spotify-black text-white text-xs font-bold rounded-xl h-8 w-36"
                         name="name"
                         id="fname">
-                    <option value="Emily Adams" >Emily
-                        Adams</option>
+                    <option value="Emily Adams">Emily
+                        Adams
+                    </option>
 
                 </select>
                 <img src="images/lady%20(1).jpg" alt=""
-                     class="absolute top-2 left-32 h-4 w-4" >
+                     class="absolute top-2 left-32 h-4 w-4 rounded-full">
             </div>
         </div>
 
-        <div class="flex relative">
-            <img src="images/mainimage.jpg" alt="">
-            <div class="ml-2"> <!--main texts-->
-                <p class="font-bold absolute bottom-3/4">Playlist</p>
-                <p class="font-bold text-7xl absolute bottom-1/4">My playlist #2</p>
+        <div class="flex  mb-12">
+            <img src="images/mainimage.jpg" alt="" class="h-36 w-36">
+            <div class="ml-2 relative w-80 pl-4">
+                <!--main texts-->
+                <p class="font-bold absolute bottom-3/4 uppercase">Playlist
+                </p>
+                <p class="font-bold text-4xl absolute bottom-1/4 tracking-wider top-12">My playlist #2</p>
                 <div class="flex absolute bottom-0 ">
                     <img src="images/lady%20(1).jpg" alt="" class="h-6 w-6 rounded-2xl">
-                    <p class="font-bold"> Emily adams.<span>5 likes.9 songs.27 min</span></p>
+                    <p class="font-bold pl-1"> Emily
+                        Adams<span class="text-white font-normal"> . 5
+                            likes . 9 songs . 27 min</span></p>
                 </div>
             </div> <!-- End main texts-->
 
         </div>
 
-        <!--      <div class="flex justify-between pl-12 uppercase text-xl font-bold">-->
-
-        <!--          <h1>Title</h1>-->
-        <!--          <h1 class="">Album</h1>-->
-        <!--          <h1 class="">Date Added</h1>-->
-        <!--          <img src="" alt="">-->
-        <!--      </div>-->
-        <!--      <div class="flex justify-between pl-12">-->
-        <!--      <div class="flex  ">-->
-        <!--        <img src="images/behappy.jpg" alt="">-->
-        <!--        <div>-->
-        <!--        <p>Be Happy</p>-->
-        <!--        <p>Gene Evaro</p>-->
-        <!--      </div>-->
-        <!--      </div>-->
-
-        <!--        <p class="">be happy</p>-->
-        <!--        <p>date</p>-->
-        <!--        <p>time</p>-->
-        <!--      </div>-->
-
-        <!--<div class="flex relative rounded-full h-12 w-12 bg-spotify-green absolute left-40 top-24">
-					<span class=""><img src="images/outline_play_circle_filled_white_24dp.png"
-                                        alt=""
-                                        class=""></span>
-
-        </div>-->
-        <div class="flex justify-between">
+        <!--Play line with play and download button -->
+        <div class="flex justify-between mb-8 pr-16">
             <div class="flex">
                 <div class="flex rounded-full h-12 w-12 bg-spotify-green">
-					<span class=""><img src="images/outline_play_circle_filled_white_24dp.png"
-                                        alt=""
-                                        class=""></span>
+							<span class=""><img src="images/outline_play_circle_filled_white_24dp.png"
+                                                alt=""
+                                                class=""></span>
                 </div>
                 <div class="flex rounded-full h-8 w-8 bg-spotify-green relative left-6 top-3">
-					<span class=""><img src="images/downarrow.png"
-                                        alt=""
-                                        class="mt-1.5 ml-0.5 absolute"></span>
+							<span class=""><img src="images/downarrow.png"
+                                                alt=""
+                                                class="mt-1.5 ml-0.5 absolute"></span>
                 </div>
-                <div class="relative h-10 w-10 "><img src="images/dots.png" alt="" class="absolute left-12 top-4 "></div>
+                <div class="relative h-10 w-10 "><img src="images/dots.png" alt="" class="absolute left-12 top-4 ">
+                </div>
             </div>
-            <div class="flex">
-                <div class="relative h-10 w-10"><img src="images/baseline_search_white_24dp.png" alt="" class="absolute top-4 "></div>
+            <div class="flex ">
+                <div class="relative h-10 w-10"><img src="images/baseline_search_white_24dp.png" alt=""
+                                                     class="absolute top-4 "></div>
                 <select class="bg-transparent relative  ">
-                    <option value="Recently played" class="">Recently played</option>
+                    <option value="Recently played" class="absolute">Recently played</option>
                 </select>
             </div>
         </div>
 
 
-
         <div class="space-y-2">
-            <div class="flex space-x-6"> <!--song heater-->
+            <div class="flex space-x-6">
+                <!--song heater-->
                 <div>#</div>
-                <div class="flex relative ">
-                    <div >Title</div>
-                    <div class="ml-72 mr-2 ">Album</div>
+                <div class="flex relative uppercase">
+                    <div>Title</div>
+                    <div class="ml-72 mr-1 ">Album</div>
                     <div class="ml-72">Date Added</div>
                     <div class="ml-56"><img src="images/clock.png" alt=""></div>
                 </div>
             </div>
 
+            <div>
+                <hr class="border-0 bg-gray-600 h-px -m-1 mb-12">
+            </div>
 
-            <div class="flex space-x-6 relative"><!--song 1-->
+
+            <div class="flex space-x-6 ">
+                <!--song 1-->
                 <div class=" "> 1</div>
                 <div class="flex relative">
-                    <div class="flex space-x-2">
+                    <div class="flex space-x-2 mb-4">
                         <div><img src="images/runaway.jpg" alt=""></div>
                         <div>
                             <p class="font-bold">Be Happy</p>
@@ -175,18 +160,20 @@
                             </div>
                         </div>
                     </div>
-                    <div> <p class="ml-44 -mr-4">Be Happy</p> </div>
+                    <div>
+                        <p class="ml-40 -mr-2">Be Happy</p>
+                    </div>
                     <div class="ml-72"> Oct 14,2020</div>
                     <div class="ml-56"> 3:23</div>
                 </div>
             </div>
 
 
-
-            <div class="flex space-x-6"><!--song 2-->
+            <div class="flex space-x-6 mt-2">
+                <!--song 2-->
                 <div>2</div>
                 <div class="flex relative">
-                    <div class="flex -mr-1.5 space-x-2">
+                    <div class="flex -mr-2 space-x-2 mb-4">
                         <div><img src="images/behappy.jpg" alt=""></div>
                         <div>
                             <p class="font-bold">Runaway</p>
@@ -196,73 +183,92 @@
                             </div>
                         </div>
                     </div>
-                    <div class="ml-48 -mr-4">Runaway</div>
+                    <div class="ml-44 -mr-2">Runaway</div>
                     <div class="ml-72">Oct 14, 2020</div>
-                    <div class=" flex space-x-1 ml-48"><img src="images/heart.png" alt="" class="h-6"><p>3:03</p></div>
+                    <div class=" flex space-x-1 ml-48">
+                        <img src="images/heart.png" alt="" class="bg-spotify-green rounded-2xl h-6">
+                        <p>3:03</p>
+                    </div>
                 </div>
             </div>
+        </div>
 
-            <div class="flex space-x-4"><!--song 3-->
-                <div class="-ml-2"><img src="images/play.png" alt=""></div>
-                <div class="flex relative">
-                    <div class="flex -mr-6 space-x-2">
-                        <div><img src="images/domesticsweater.jpg" alt=""></div>
-                        <div>
-                            <p class="font-bold">Domestic Sweater</p>
-                            <div class="flex space-x-1">
-                                <img src="images/arrowdown2.png" alt="">
-                                <p> Wardell</p>
-                            </div>
+        <div class="flex space-x-4 mt-2">
+            <!--song 3-->
+            <div class="-ml-2"><img src="images/play.png" alt=""></div>
+            <div class="flex relative">
+                <div class="flex -mr-4 space-x-2">
+                    <div><img src="images/domesticsweater.jpg" alt=""></div>
+                    <div>
+                        <p class="font-bold">Domestic Sweater</p>
+                        <div class="flex space-x-1">
+                            <img src="images/arrowdown2.png" alt="">
+                            <p> Wardell</p>
                         </div>
                     </div>
-                    <div><p class="ml-40 -mr-6">Domestic Sweater</p></div>
-                    <div><p class="ml-60">Oct 14, 2020</p></div>
-                    <div class=" flex space-x-1 ml-48"><img src="images/heart.png" alt="" class="h-6"><p>3:03</p><img
-                            src="images/dots.png" alt="" class="h-6 w-6"></div>
                 </div>
+                <div>
+                    <p class="ml-44 -mr-6">Domestic Sweater</p>
+                </div>
+                <div>
+                    <p class="ml-64">Oct 14, 2020</p>
+                </div>
+                <div class=" flex space-x-1 ml-48">
+                    <img src="images/heart.png" alt="" class="h-6">
+                    <p>3:03</p>
+                    <img src="images/dots.png" alt="" class="h-6 w-6"></div>
             </div>
         </div>
     </div>
 </div>
+</div>
 
 <footer class="relative z-50">
     <div
-            class="absolute bottom-1 left-1 flex bg-gray-700 p-3 rounded border-t-1 border-white w-full h-24">
+            class="absolute  left-1 flex bg-gray-700 p-2 bottom-4 rounded w-full h-16">
 
-        <div class="flex w-96 pl-8 space-y-3">
+        <div class="relative flex w-96 pl-8">
             <img src="images/domesticsweater.jpg" alt=""
-                 class="w-16 h-16 ">
+                 class="absolute left-8 top-0 w-12 h-12 ">
 
-            <div class="relative">
-                <p class="text-sm m-4 text-white font-bold w-36 absolute bottom-6 ">Domestic
+            <div class="absolute left-20 top-0">
+                <p class="text-sm m-4 text-white font-bold">Domestic
                     Sweater</p>
-                <p class="absolute bottom-1 text-xs text-gray-400 m-4">Wardell
+                <p class="absolute top-6 left-1 text-xs text-gray-400 m-2 pl-1">
+                    Wardell
                 </p>
                 <img src="images/baseline_favorite_border_black_24dp.png"
                      alt="" class="absolute w-4 h-4 right-0 top-8">
             </div>
-
         </div>
 
         <div class="flex justify-end relative w-full">
-            <div class="absolute right-1/3 w-96 h-4 mt-4 flex-wrap">
-                <div class="absolute flex">
+            <div class="absolute right-1/3 w-96 h-1 mt-0 flex-wrap">
+                <div class="absolute flex top-0">
                     <img src="images/baseline_shuffle_black_24dp.png" alt="" class="ml-4">
                     <img src="images/baseline_fast_rewind_black_24dp.png"
                          alt="" class="ml-4">
                     <img
-                            src="images/outline_play_circle_filled_white_24dp.png" alt="" class="ml-4 h-8 w-8">
+                            src="images/outline_play_circle_filled_white_24dp.png" alt="" class="ml-4 h-6 w-6">
                     <img src="images/baseline_fast_forward_black_24dp.png"
                          alt="" class="ml-4">
                     <img src="images/baseline_repeat_black_24dp.png" alt=""
                          class="ml-4">
                 </div>
             </div>
+            <div
+                    class="absolute right-2/3 top-6 pr-14 font-bold text-gray-500 text-sm">
+                0:00
+            </div>
             <div>
                 <img src="images/rangeslider.png" alt=""
-                     class="w-96 h-4 absolute right-1/3 mr-24 top-12">
+                     class="w-96 h-8 absolute right-1/3 mr-24 top-4 h-2">
             </div>
-            <div class="flex absolute right-16 top-6 w-36 h-4 ">
+            <div
+                    class="absolute right-1/3 top-6 pr-20 font-bold text-gray-500 pl-4 text-sm">
+                4:25
+            </div>
+            <div class="flex absolute right-24 top-3 w-36 h-5">
                 <img src="images/baseline_queue_music_black_24dp.png" alt="">
                 <img src="images/baseline_speaker_phone_black_24dp.png" alt="">
                 <img src="images/baseline_volume_up_black_24dp.png" alt="">
@@ -272,6 +278,60 @@
         </div>
     </div>
 </footer>
+
+<!--<footer class="relative z-50">
+<div
+class="absolute  left-1 flex bg-gray-700 p-1 bottom-4 rounded border-t-1 border-white w-full h-24">
+
+<div class="relative flex w-96 pl-8">
+<img src="images/domesticsweater.jpg" alt=""
+class="absolute left-8 top-3 w-12 h-12 ">
+
+<div class="absolute left-20 top-2">
+<p class="text-sm m-4 text-white font-bold">Domestic
+Sweater</p>
+<p
+class="absolute top-7 left-1 text-xs text-gray-400 m-2 pl-1">Wardell
+</p>
+<img src="images/heart.png"
+alt="" class="absolute w-4 h-4 right-0 top-8">
+</div>
+</div>
+
+<div class="flex justify-end relative w-full">
+<div class="absolute right-1/3 w-96 h-2 mt-2 flex-wrap">
+<div class="absolute flex top-2">
+<img src="images/baseline_shuffle_black_24dp.png" alt="" class="ml-4">
+<img src="images/baseline_fast_rewind_black_24dp.png"
+alt="" class="ml-4">
+<img
+src="images/outline_play_circle_filled_white_24dp.png" alt="" class="ml-4 h-8 w-8">
+<img src="images/baseline_fast_forward_black_24dp.png"
+alt="" class="ml-4">
+<img src="images/baseline_repeat_black_24dp.png" alt=""
+class="ml-4">
+</div>
+</div>
+<div
+class="absolute right-2/3 top-12 pr-14 font-bold text-gray-500 text-sm">0:00
+</div>
+<div>
+<img src="images/rangeslider.png" alt=""
+class="w-96 h-8 absolute right-1/3 mr-24 top-10 h-2">
+</div>
+<div
+class="absolute right-1/3 top-12 pr-20 font-bold text-gray-500 pl-1 text-sm">4:25
+</div>
+<div class="flex absolute right-24 top-6 w-36 h-6">
+<img src="images/baseline_queue_music_black_24dp.png" alt="">
+<img src="images/baseline_speaker_phone_black_24dp.png" alt="">
+<img src="images/baseline_volume_up_black_24dp.png" alt="">
+<img src="images/rangeslider.png" alt="" class="w-36 h-4">
+<img src="images/baseline_close_fullscreen_black_24dp.png" alt="">
+</div>
+</div>
+</div>
+</footer>-->
 
 </body>
 
