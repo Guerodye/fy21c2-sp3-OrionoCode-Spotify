@@ -22,7 +22,7 @@ const passwordError = document.getElementById("passworderror")
         //message.innerText = error;//
 
        else{
-          window.location.href="index.html";
+          window.location.href="playlist.html";
           }
        usernameError.innerText = error1;
        passwordError.innerText = error2;
